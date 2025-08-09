@@ -1,0 +1,74 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 29,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Escape",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_R",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Multi_key",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 99,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Shift_L+Control_L+Super_L+Alt_L",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 1,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Shift_L+Control_L+Super_L+Alt_L+KEY_TAB",
+        "mapping_type": "key_macro"
+    }
+]

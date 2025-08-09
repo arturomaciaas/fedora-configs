@@ -1,0 +1,33 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 47,
+                "origin_hash": "4db7242a26afc6ab0bb6c48c34139c0e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Delete",
+        "name": "Delete",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 29,
+                "origin_hash": "4db7242a26afc6ab0bb6c48c34139c0e"
+            },
+            {
+                "type": 1,
+                "code": 74,
+                "origin_hash": "4db7242a26afc6ab0bb6c48c34139c0e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "KEY_FAVORITES",
+        "name": "Open xournal++",
+        "mapping_type": "key_macro"
+    }
+]
