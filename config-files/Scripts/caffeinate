@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Caffeinate mode: press Ctrl+C to stop"
+while true; do
+  xdotool key shift
+  sleep 60
+done

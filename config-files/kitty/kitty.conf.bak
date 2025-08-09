@@ -1,0 +1,16 @@
+# BEGIN_KITTY_THEME
+# One Dark
+include current-theme.conf
+# END_KITTY_THEME
+# font_family FiraCode Nerd Font Mono
+font_size 12
+
+allow_remote_control yes
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="FiraCode Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
