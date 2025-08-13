@@ -44,7 +44,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "Multi_key",
+        "output_symbol": "KEY_RIGHTALT",
         "mapping_type": "key_macro"
     },
     {
@@ -69,6 +69,23 @@
         ],
         "target_uinput": "keyboard",
         "output_symbol": "Shift_L+Control_L+Super_L+Alt_L+KEY_TAB",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 42,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            },
+            {
+                "type": 1,
+                "code": 54,
+                "origin_hash": "384a35c02b3a82bc4756d292e2c41d23"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Caps_Lock",
         "mapping_type": "key_macro"
     }
 ]

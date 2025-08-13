@@ -1,40 +1,23 @@
 {
-    "workbench.colorTheme": "GitHub Dark Turbo",
-    "files.autoSave": "afterDelay",
-    "vim.useSystemClipboard": true,
-    "vim.insertModeKeyBindings": [
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "redhat.telemetry.enabled": false,
+  "files.autoSave": "afterDelay",
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
     {
-        "before": ["j", "k"],
-        "after": ["<Esc>"]
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
     }
-    ],
-    "amazonQ.telemetry": false,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "cpp": false
-    },
-    "C_Cpp.clang_format_fallbackStyle": "Google",
-    "[cpp]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true // Ensures spaces instead of tabs
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": true // Python uses 4 spaces
-    },
-    "window.menuBarVisibility": "compact",
-    "editor.minimap.enabled": false,
-    "extensions.ignoreRecommendations": true,
-    "chat.agent.enabled": true,
-    "amazonQ.suppressPrompts": {
-        "amazonQChatDisclaimer": true
-    },
-    "python.defaultInterpreterPath": "/home/mac/matplot/bin/python3.10",
-    "editor.inlineSuggest.edits.allowCodeShifting": "never",
-    "editor.inlineSuggest.edits.renderSideBySide": "never",
-    "github.copilot.nextEditSuggestions.enabled": false,
-    "workbench.iconTheme": "icons"
+  ],
+  "workbench.iconTheme": "icons",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/usr/lib/jvm/java-21-openjdk",
+      "default": true
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "explorer.confirmDelete": false
 }

@@ -8,7 +8,6 @@ fi
 # --- Aliases ---
 alias aoeu='cmatrix'
 alias ls='lsd'
-alias cat='bat'
 
 # --- Functions ---
 function y() {
@@ -25,7 +24,7 @@ please() {
 }
 
 # --- Paths ---
-export PATH="$HOME/Scripts:/home/mac/SonarQube/sonar-scanner-7.0.1.4817-linux-x64/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/Scripts:$HOME/.cargo/bin:$HOME/Programs/postman-linux-x64/Postman/:$PATH"
 export EDITOR=nvim
 
 # --- Zsh Options ---
@@ -56,10 +55,7 @@ SAVEHIST=5000
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=cyan'
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=green'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-eval $(thefuck --alias)
