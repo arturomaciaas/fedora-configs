@@ -11,14 +11,13 @@
 7. `.tmux.conf` -> `~/.tmux.conf`
 8. `.zshrc` -> `~/.zshrc`
 9. `Scripts/` -> `~/Scripts/`
-
+10. `hypr` -> `~/.mydotfiles/com.ml4w.dotfiles.stable/.config/hypr`
 
 ## Other Configurations:
 
 1. Keyboard layout: programmer dvorak
 2. Scale: 200%
 3. Shell: zsh
-
 
 ## Programs:
 
@@ -35,8 +34,9 @@
 11. Postman
 12. Xournal++
 
-
 ## Screenshots:
 
 ### Fonts:
+
 <img width="1972" height="1062" alt="image" src="https://github.com/user-attachments/assets/6896eba9-5500-42b4-8d30-fc4dae900d8f" />
+
