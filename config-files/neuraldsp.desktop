@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Name=Neural DSP Launcher
+Comment=Launch Neural DSP Archetypes with Wine
+Exec=/home/Mac/Scripts/launch-neural.zsh
+Path=/home/Mac/Scripts/
+Type=Application
+StartupNotify=true
+Terminal=false
+Icon=wine
+Categories=AudioVideo;Audio;Music;
