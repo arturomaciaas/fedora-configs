@@ -11,7 +11,10 @@
 7. `.tmux.conf` -> `~/.tmux.conf`
 8. `.zshrc` -> `~/.zshrc`
 9. `Scripts/` -> `~/Scripts/`
-10. `hypr` -> `~/.mydotfiles/com.ml4w.dotfiles.stable/.config/hypr`
+10. `hypr/` -> `~/.mydotfiles/com.ml4w.dotfiles.stable/.config/hypr/`
+11. `neuraldsp-on-linux.txt` -> `neuraldsp-on-linux.txt`
+12. `neuraldsp.desktop` -> `~/.local/share/applications/neuraldsp.desktop`
+13. `launch-neural.zsh` -> `~/Scripts/launch-neural.zsh`
 
 ## Other Configurations:
 
@@ -39,4 +42,3 @@
 ### Fonts:
 
 <img width="1972" height="1062" alt="image" src="https://github.com/user-attachments/assets/6896eba9-5500-42b4-8d30-fc4dae900d8f" />
-
