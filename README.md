@@ -13,8 +13,6 @@
 9. `Scripts/` -> `~/Scripts/`
 10. `hypr/` -> `~/.mydotfiles/com.ml4w.dotfiles.stable/.config/hypr/`
 11. `neuraldsp-on-linux.txt` -> `neuraldsp-on-linux.txt`
-12. `neuraldsp.desktop` -> `~/.local/share/applications/neuraldsp.desktop`
-13. `launch-neural.zsh` -> `~/Scripts/launch-neural.zsh`
 
 ## Other Configurations:
 

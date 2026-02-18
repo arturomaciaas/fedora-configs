@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "bearded-arc",
+	theme = "horizon",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -21,7 +21,8 @@ M.ui = {
   tabufline = {
     show_numbers = false,
     enabled = true,
-    lazyload = true
+    lazyload = false,
+    order = { "treeOffset", "buffers", "tabs" },
   }
 }
 
