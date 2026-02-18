@@ -13,6 +13,18 @@ return {
     end,
   },
 
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      local cmp = require "cmp"
+      opts.mapping["<C-k>"] = cmp.mapping.select_prev_item()
+      opts.mapping["<C-j>"] = cmp.mapping.select_next_item()
+      opts.mapping["<Up>"] = cmp.mapping.select_prev_item()
+      opts.mapping["<Down>"] = cmp.mapping.select_next_item()
+      return opts
+    end,
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
