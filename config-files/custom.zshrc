@@ -6,8 +6,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # --- Aliases ---
-alias aoeu='cmatrix'
 alias ls='lsd'
+alias wifi='nmtui'
+alias ai='kiro-cli'
+alias update='sudo dnf upgrade && sudo dnf autoremove && sudo dnf clean all'
 
 # --- Functions ---
 function y() {
@@ -24,7 +26,7 @@ please() {
 }
 
 # --- Paths ---
-export PATH="$HOME/Scripts:$HOME/.cargo/bin:$HOME/Programs/postman-linux-x64/Postman/:$PATH"
+export PATH="$HOME/Scripts:$HOME/.cargo/bin:$HOME/Programs/postman-linux-x64/Postman/:$HOME/ES-DE/:$HOME/.npm-global/bin:$PATH"
 export EDITOR=nvim
 
 # --- Zsh Options ---
@@ -56,6 +58,11 @@ SAVEHIST=5000
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=green'
+
+eval "$(zoxide init zsh)"
+chpwd() {
+  [[ -o interactive ]] && ls
+}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
