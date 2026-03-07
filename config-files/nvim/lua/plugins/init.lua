@@ -139,4 +139,22 @@ return {
       vim.g.tmux_navigator_disable_when_zoomed = 1
     end,
   },
+
+  {
+    "CopilotC-Nvim/CopilotChat.nvim",
+    branch = "main",
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    cmd = {
+      "CopilotChat",
+      "CopilotChatOpen",
+      "CopilotChatToggle",
+      "CopilotChatClose",
+      "CopilotChatReset",
+    },
+    opts = {},
+  },
+
 }
