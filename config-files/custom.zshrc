@@ -25,8 +25,11 @@ please() {
   sudo $(fc -ln -1)
 }
 
+# bun completions
+[ -s "/home/Mac/.bun/_bun" ] && source "/home/Mac/.bun/_bun"
+
 # --- Paths ---
-export PATH="$HOME/Scripts:$HOME/.cargo/bin:$HOME/Programs/postman-linux-x64/Postman/:$HOME/ES-DE/:$HOME/.npm-global/bin:$PATH"
+export PATH="$HOME/Scripts:$HOME/.bun/bin/:$HOME/.cargo/bin:$HOME/Programs/postman-linux-x64/Postman/:$HOME/ES-DE/:$HOME/.npm-global/bin:$PATH"
 export EDITOR=nvim
 
 # --- Zsh Options ---
