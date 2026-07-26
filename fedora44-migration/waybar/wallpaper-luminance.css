@@ -1,0 +1,21 @@
+@define-color icon_color #ffffff;
+
+#clock,
+#network,
+#network.wifi,
+#network.ethernet,
+#pulseaudio,
+#bluetooth,
+#bluetooth.on,
+#bluetooth.connected,
+#bluetooth.off,
+#battery,
+#battery.charging,
+#battery.plugged,
+#custom-updates,
+#custom-updates.green,
+#custom-appmenu,
+#power-profiles-daemon,
+#workspaces button {
+    color: #ffffff;
+}

@@ -1,0 +1,6 @@
+[Unit]
+Description=Update waybar icon color from wallpaper luminance
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/waybar/wallpaper-icon-color.sh

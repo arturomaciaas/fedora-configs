@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch wallpaper changes to update waybar icon color
+
+[Path]
+PathModified=%h/.cache/ml4w/hyprland-dotfiles/current_wallpaper
+Unit=waybar-icon-color.service
+
+[Install]
+WantedBy=default.target

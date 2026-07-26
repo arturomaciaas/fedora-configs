@@ -1,0 +1,11 @@
+# fzf key bindings (CTRL-R fuzzy history)
+source <(fzf --zsh)
+
+# History
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+# Prompt
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/EDM115-newline.omp.json)"
