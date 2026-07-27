@@ -167,6 +167,20 @@ system at `/etc/tlp.conf.bak-*`.
 
 ---
 
+### `system/hyprlock.pam`
+Live: `/etc/pam.d/hyprlock`
+Replaced the default `auth include login` (which pulled in `pam_fprintd.so`
+first, blocking password input until a fingerprint was provided) with a
+password-only PAM config. Hyprlock's built-in `auth { fingerprint:enabled = true }`
+handles fingerprint separately via D-Bus, so PAM-level fprintd is unnecessary
+and was causing the input freeze. Apply with:
+```
+sudo cp hyprlock.pam /etc/pam.d/hyprlock
+```
+Original backed up on the system at `/etc/pam.d/hyprlock.bak-*`.
+
+---
+
 ## Related fixes (no config files, noted for reference)
 
 - **hyprsunset** (SUPER+N nightlight) failed with missing `libhyprutils.so.13` /
